@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 15px;
-    background-color: aliceblue;
+    background-color: white;
 }
 .project-info1 h1 {
     font-size: 18px;
