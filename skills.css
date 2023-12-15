@@ -135,7 +135,7 @@
         margin-bottom: 20px;
     }
     
-    .skills-box .div div::after{
+    .div div::after{
         display: none;
     }
     .skills-box .div div{
