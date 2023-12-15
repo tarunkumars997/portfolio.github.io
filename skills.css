@@ -110,36 +110,40 @@
 @media screen and (max-width:600px) {
     .skills-box{
         width: 90%;
-        height: 100%;
+        height: fit-content;
         position: unset;
         z-index: 10;
-        margin-top: 0px;
         display: flex;
         justify-content: center;
         padding-right: 20px;
+        padding-bottom: 10px;
     }
     .skills-box .project-info1 h1{
-        font-size: 29px;
         text-wrap: wrap;
     }
     .skills-box .project-info1 p{
-        font-size: x-large;
+        font-size: 18px;
         text-wrap: wrap;
-    }
+    }}
+    .project-info1 h1 {
+        font-size: 24px;
+      }
     .skills-box .project-info1{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .skills-box .div{
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
     .skills-box .div div::after{
         display: none;
     }
     .skills-box .div div{
-        width: 10%;
-        font-size: 25px;
+        width: 8%;
+        margin-top: 10px;
+        font-size: 21px;
         padding: 30px;
+        text-align: justify;
         height: max-content;
     }
 

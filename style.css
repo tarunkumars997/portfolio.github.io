@@ -322,7 +322,7 @@ body{
         position: unset;
         margin-top: 10%;
         z-index: 10;
-        font-size: xx-large;
+        font-size: 21px;
         margin-top: 50px;
     }
     #project::before{
@@ -354,10 +354,10 @@ body{
         margin-left:0% ;
         position: unset;
         height:100%;
-        font-size: x-large;
+        font-size: 21px;
     }
     .main .project .project-details .project-info h1{
-        font-size: xx-large;
+        font-size: 24px;
     }
     .main .project .project-details .project-image{
         display: none;
@@ -367,7 +367,7 @@ body{
         margin-left:0% ;
         position: unset;
         height:100%;
-        font-size: x-large;
+        font-size: 21px;
     }
     
     .main #project-3{
@@ -375,7 +375,7 @@ body{
         margin-left:0% ;
         position: unset;
         height:100%;
-        font-size: x-large;
+        font-size: 21px;
     }
     .project-details{
         display: flex;
