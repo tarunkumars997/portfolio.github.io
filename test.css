@@ -258,3 +258,44 @@
     display: none;
 }
 
+@media screen and (max-width:600px) {
+    #edu,#skills,#project{
+        transition: all 0ms ease-in-out;
+    }
+    #edu:hover::before{
+        display: none;
+    }
+    #edu:hover::after{
+        display: none;
+    }
+    #skills:hover::before{
+        display: none;
+    }
+    #skills:hover::after{
+        display: none;
+    }
+    #project:hover::before{
+        display: none;
+    }
+    #project:hover::after{
+        display: none;
+    }
+    #edu.hover:hover::before{
+        display: none;
+    }
+    #edu.hover:hover::after{
+        display: none;
+    }
+    #skills.hover:hover::before{
+        display: none;
+    }
+    #skills.hover:hover::after{
+        display: none;
+    }
+    #project.hover:hover::before{
+        display: none;
+    }
+    #project.hover:hover::after{
+        display: none;
+    }
+}

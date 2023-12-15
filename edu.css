@@ -108,3 +108,35 @@
     color:cornflowerblue;
     text-decoration: none;
 }
+
+@media screen and (max-width:600px) {
+    .edu-main .edu-box{
+        width:90%;
+        height: 100%;
+        margin-top: 0%;
+    }
+    #edu-img{
+        width: 30%;
+        margin-right: 5px;
+        box-shadow: 0 0 0 0;
+    }
+    #edu-text{
+        margin-left: 5px;
+        box-shadow: 0 0 0 0;
+        font-size: 21px;
+        justify-content: center;
+        text-align: justify;
+    }
+    .edu-box div{
+        height: 27%;
+    }
+    .edu-box #edu-img:hover{
+        background-color:white;
+        transform: scale(1) translateY(0px);
+    }
+    
+    .edu-box #edu-text:hover{
+        background-color:white;
+        transform: scale(1) translateY(0px);
+    }
+}
