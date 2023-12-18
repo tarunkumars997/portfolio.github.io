@@ -71,14 +71,21 @@ if(count_right != 0) {
     count_right -= 1;
     count_left += 1;
     const boxes = document.querySelectorAll('.project');
-
+    const body = document.querySelector('.main');
+    let val = 0;
+    boxes.forEach((box, index) => {
+        console.log(parseFloat(getComputedStyle(body).width)*0.5)
+        console.log(parseFloat(getComputedStyle(box).width)*0.5)
+        if(index == 1) val = parseFloat(getComputedStyle(body).width)*0.5;
+    });
+    console.log(val)
     // Loop through each element and update properties
     boxes.forEach((box, index) => {
     // Get the current left and top values and convert them to numbers (removing 'px')
     let currentLeft = parseFloat(getComputedStyle(box).left);
     console.log(currentLeft)
     // Update left and top properties
-    box.style.left = `${currentLeft+2*764}px`;
+    box.style.left = `${currentLeft+2*val}px`;
     if(count_right == 0){
         right.style.display = 'none';
     }
@@ -94,13 +101,22 @@ if(count_left != 0){
     count_right += 1;
     count_left -= 1;
     const boxes = document.querySelectorAll('.project');
+    const body = document.querySelector('.main');
     // Loop through each element and update properties
+    let val = 0;
+    boxes.forEach((box, index) => {
+        
+        console.log(parseFloat(getComputedStyle(body).width)*0.5)
+        console.log(parseFloat(getComputedStyle(box).width)*0.5)
+        if(index == 1) val = parseFloat(getComputedStyle(body).width)*0.5;
+    });
+    
     boxes.forEach((box, index) => {
     // Get the current left and top values and convert them to numbers (removing 'px')
     let currentLeft = parseFloat(getComputedStyle(box).left);
     console.log(currentLeft)
     // Update left and top properties
-    box.style.left = `${currentLeft-2*764}px`;
+    box.style.left = `${currentLeft-2*val}px`;
     if(count_left == 0){
         left.style.display = 'none';
     }
