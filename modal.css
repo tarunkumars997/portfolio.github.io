@@ -18,15 +18,15 @@
     border-radius: 5px;
 }
 #project-1{
-    left: -764px;
+    left: -50%;
     margin-left: -22.5%;
 }
 #project-2{
-    left: 764px;
+    left: 50%;
     margin-left: -22.5%;
 }
 #project-3{
-    left:2292px;
+    left:150%;
     margin-left: -22.5%;
 }
 .project:hover{
@@ -124,4 +124,12 @@
     background-image: url('bg-stripe.png');
     background-color: #b5e2fa;
     opacity: 1;
+}
+.a:hover {
+    box-shadow: 0px -16px 0px 0px #00FFA7 inset;
+}
+.a{
+    
+    box-shadow: 0px -3px 0px 0px #00FFA7 inset;
+    transition: box-shadow 150ms ease-in-out;
 }
