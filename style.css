@@ -360,7 +360,7 @@ body{
         font-size: 24px;
     }
     .main .project .project-details .project-image{
-        display: none;
+/*         display: none; */
     }
     .main #project-2{
         width:95%;
